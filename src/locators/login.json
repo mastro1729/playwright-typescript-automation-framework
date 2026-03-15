@@ -1,0 +1,8 @@
+{
+    "loginUser": "input[data-qa='login-email']",
+    "passUser": "input[placeholder='Password']",
+    "loginButton": "//button[normalize-space()='Login']",
+    "deleteAccount": "a[href='/delete_account']",
+    "accountDeleteHeader": "//b[normalize-space()='Account Deleted!']",
+    "homePageLogo": "img[alt='Website for automation practice']"
+}

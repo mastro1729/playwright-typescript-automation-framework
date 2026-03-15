@@ -1,0 +1,12 @@
+{
+     "contactUsButton": "a[href='/contact_us']",
+    "getIntouchHeader": "div[class='contact-form'] h2[class='title text-center']",
+    "contactName": "input[placeholder='Name']",
+    "contactEmail": "input[placeholder='Email']",
+    "contactSubject": "input[placeholder='Subject']",
+    "contactMessage": "#message",
+    "uploadFile": "input[name='upload_file']",
+    "contactSubmit": "input[value='Submit']",
+    "alertSuccessStatus": ".status.alert.alert-success",
+    "homeButton": "a[class='btn btn-success'] span"
+}

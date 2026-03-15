@@ -1,0 +1,11 @@
+{
+    "productCard" : ".product-image-wrapper",
+    "allProducts" : ".product-overlay",
+    "firstAddToCart" : "a[data-product-id='1']",
+    "secondAddToCart": "a[data-product-id='2']",
+    "cartInfo": "#cart_info",
+    "productsRows": ".cart_product",
+    "priceRows": ".cart_price",
+    "quanityRows": ".cart_quantity",
+    "totalCartRows": ".cart_total"
+}

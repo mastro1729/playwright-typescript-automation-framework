@@ -1,0 +1,8 @@
+{
+    "viewProduct": "a[href='/product_details/1']",
+    "productInfo": "div[class='product-information']",
+    "quantity": "#quantity",
+    "addToCart_Quantity": "//button[normalize-space()='Add to cart']",
+    "viewCart_Quantity": "//u[normalize-space()='View Cart']",
+    "quantityValue": "button.disabled"
+}

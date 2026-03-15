@@ -1,0 +1,39 @@
+public class LoginRequest{
+String userEmail;
+String userPassword;
+
+public string getuserEmail(){
+return userEmail;
+}
+
+public void setUserEmail(String userEmail){
+this.userEmail=userEmai;
+}
+
+public string getuserpassord(){
+return userpassword;
+}
+
+public void setuserpassword(String userEmail){
+this.userpassword=userpassord;
+}
+
+
+RequestSpecification req = new RequestSpecBuilder()
+.setBaseUri("url")
+.setContentType(contentType.JSON).build();
+
+LoginRequest login = new LoginRequest();
+login.setUserEmail("koti@gmai");
+login.setPassword("djhhf");
+
+RequestSpecification reqLogin = given().log().all().spec(req).body(login);
+
+LoginResopnse response = reqLogin.when().post("api/json")
+.then().log().all().extract().response();
+
+response.getToken
+
+
+
+

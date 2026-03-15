@@ -1,0 +1,28 @@
+{
+    "signupNameField" : "//input[@name='name']",
+    "signupEmailField" : "(//input[@name='email'])[2]",
+    "signupButton" : "//button[contains(text(),'Signup')]",
+    "titleMr" : "//input[@id='id_gender1']",
+    "titleMrs" : "//input[@id='id_gender2']",
+    "passwordField" : "//input[@id='password']",
+    "dayDropdown": "//select[@id='days']",
+    "monthDropdown": "//select[@id='months']",
+    "yearDropdown": "//select[@id='years']",
+    "newsletterCheckbox" : "//input[@id='newsletter']",
+    "specialOffersCheckbox": "//input[@id='optin']",
+    "firstName": "//input[@id='first_name']",
+    "lastName" : "//input[@id='last_name']",
+    "companyName" : "//input[@id='company']",
+    "address1" : "//input[@id='address1']",
+    "address2" : "//input[@id='address2']",
+    "countryDropdown" : "//select[@id='country']",
+    "state" : "//input[@id='state']",
+    "city" : "//input[@id='city']",
+    "zipcode" : "//input[@id='zipcode']",
+    "mobileNumber" : "//input[@id='mobile_number']",
+    "createAccount" : "//button[contains(text(),'Create Account')]",
+    "successMessage" : "//b[contains(text(),'Account Created!')]"
+
+
+
+}

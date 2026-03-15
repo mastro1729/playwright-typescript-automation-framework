@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Playwright results
+test-results/
+playwright-report/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Reports
+reports/
+
+# Downloads
+${downloadPath}
+
+# VSCode
+.vscode
+
+# Environment
+.env

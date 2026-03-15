@@ -1,0 +1,6 @@
+{
+    "productLists": ".product-image-wrapper",
+    "productName": "div[class='product-information'] h2",
+    "category": "//h2[normalize-space()='Category']",
+    "price": "div[class='product-information'] span span"
+}

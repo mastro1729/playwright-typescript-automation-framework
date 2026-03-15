@@ -1,0 +1,5 @@
+{
+    "searchProduct": "//input[@id='search_product']",
+    "searchSubmitButton": "//button[@id='submit_search']",
+    "productTitles": "div.productinfo p"
+}

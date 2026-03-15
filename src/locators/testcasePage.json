@@ -1,0 +1,4 @@
+{
+    "testcaseButton": "//div[@class='item active']//button[@type='button'][normalize-space()='Test Cases']",
+    "header": "div[class='panel-group'] h5 span"
+}

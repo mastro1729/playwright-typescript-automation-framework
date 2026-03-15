@@ -1,0 +1,32 @@
+{
+  "name": "playwright-pom-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "HEADLESS=false npx playwright test",
+    "test:headless": "HEADLESS=true npx playwright test --headless",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^20.19.25",
+    "@types/xlsx": "^0.0.35",
+    "allure-playwright": "^3.4.2",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  }
+}

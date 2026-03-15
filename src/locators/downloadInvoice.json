@@ -1,0 +1,12 @@
+{
+    "proceedToCheckout" : ".btn.btn-default.check_out",
+    "textArea" : "textarea[name='message']",
+    "placeOrder" : ".btn.btn-default.check_out",
+    "nameCard" : "input[name='name_on_card']",
+    "cardNumber" : "input[name='card_number']",
+    "cvv" : "input[placeholder='ex. 311']",
+    "expDate" : "input[placeholder='MM']",
+    "year" : "input[placeholder='YYYY']",
+    "payConfirm" : "#submit",
+    "downloadInvoice" : ".btn.btn-default.check_out"
+}
