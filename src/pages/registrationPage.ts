@@ -1,5 +1,5 @@
 import { Page, chromium, expect } from "@playwright/test";
-import locators from "../locators/registration.json" with { type: "json"};
+import locators from "../locators/registration.json";
 
 export default class RegistrationPage {
     private page: Page;

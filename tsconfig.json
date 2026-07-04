@@ -4,18 +4,17 @@
     //"module": "esnext",
     
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "nodenext",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "ignoreDeprecations": "6.0",
+    "moduleResolution": "nodenext",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "types": ["node","@playwright/test"],
     "skipLibCheck": true,
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
+    "noEmit": false,
+    "rootDir": ".",
     "outDir": "dist"
   },
   "ts-node": {

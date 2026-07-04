@@ -2,14 +2,17 @@
   "name": "playwright-pom-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "test": "npx playwright test",
     "test:headed": "HEADLESS=false npx playwright test",
     "test:headless": "HEADLESS=true npx playwright test --headless",
     "test:chrome": "npx playwright test --project=chromium",
     "test:firefox": "npx playwright test --project=firefox",
-    "test:webkit": "npx playwright test --project=webkit"
+    "test:webkit": "npx playwright test --project=webkit",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "",

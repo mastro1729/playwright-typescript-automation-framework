@@ -1,5 +1,5 @@
 import { Page, expect } from "@playwright/test";
-import locators from "../locators/login.json" with { type: "json"}
+import locators from "../locators/login.json";
 
 export default class LoginPage {
     private page: Page;
